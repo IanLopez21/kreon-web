@@ -1,0 +1,79 @@
+
+@font-face {
+        font-family: "RobotoCondensed-Regular";
+        src: url(font/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: "RobotoCondensed-Light";
+    src: url(font/RobotoCondensed-Light.ttf);
+
+}
+
+@font-face {
+    font-family: "RobotoCondensed-Bold";
+    src: url(font/RobotoCondensed-Bold.ttf);
+
+}
+
+/*Estructuras para Cabezera y Body! */
+
+body{
+    background-color: rgb(201, 201, 201);
+}
+
+.cabezera{
+    font-family: "RobotoCondensed-Bold";
+    background-color: rgb(192, 83, 83);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/*Estructuras del Contendio(cont)*/
+
+main{
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    margin-left: 50px;
+    
+    
+}
+
+ul{
+    padding-top: 10px;
+    font-family: "RobotoCondensed-Regular";
+    
+}
+
+
+
+footer{
+    background-color:rgb(192, 83, 83) ;
+}
+
+/*Contenido de Video*/
+
+div{
+    padding-top: 20px;
+    font-family: "RobotoCondensed-Regular"; 
+}
+
+.noti{
+    margin-top: 30px;
+    font-family: "RobotoCondensed-Regular";
+}
+
+/*Estructura Bio*/
+
+#desc{
+    margin-top: 30px;
+    font-family: "RobotoCondensed-Regular";
+}
+
+footer{
+    font-family: "RobotoCondensed-Bold" ;
+}
+
