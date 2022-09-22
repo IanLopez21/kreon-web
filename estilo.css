@@ -19,9 +19,19 @@
 /*Estructuras para Cabezera y Body! */
 
 body{
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(162, 106, 106);
 }
 
+header{
+    font-family: "RobotoCondensed-Regular";
+    background-color: brown;
+
+}
+
+.conteinercustom{
+    position: fixed;
+    
+}
 
 .cabezera{
     font-family: "RobotoCondensed-Bold";
@@ -35,7 +45,12 @@ body{
 /*Estructuras del Contendio(cont)*/
 
 main{
-    background-color: rgb(161, 161, 161);  
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    margin-left: 50px;
+    
+    
 }
 
 ul{
@@ -64,10 +79,9 @@ div{
 
 /*Estructura Bio*/
 
-.desc{
+#desc{
     margin-top: 30px;
     font-family: "RobotoCondensed-Regular";
-    font-size: 20px;
 }
 
 footer{
