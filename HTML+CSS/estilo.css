@@ -16,6 +16,14 @@
 
 }
 
+/*Media Queries*/
+
+@media (min-width: 400px) and (max-width: 700px){
+    body {
+        background-color: blue;
+    }
+}
+
 /*Estructuras para Cabezera y Body! */
 
 body{
@@ -35,13 +43,14 @@ body{
 /*Estructuras del Contendio(cont)*/
 
 main{
-    background-color: rgb(161, 161, 161);  
+    background-color: rgb(161, 161, 161);
+    padding: 15px 10px 15px 10px;
+    margin:auto
 }
 
 ul{
     padding-top: 10px;
-    font-family: "RobotoCondensed-Regular";
-    
+    font-family: "RobotoCondensed-Regular";   
 }
 
 
@@ -52,10 +61,7 @@ footer{
 
 /*Contenido de Video*/
 
-div{
-    padding-top: 20px;
-    font-family: "RobotoCondensed-Regular"; 
-}
+
 
 .noti{
     margin-top: 30px;
@@ -71,6 +77,8 @@ div{
 }
 
 footer{
-    font-family: "RobotoCondensed-Bold" ;
+    font-family: "RobotoCondensed-Light" ;
 }
+
+
 
